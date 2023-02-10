@@ -1,0 +1,8 @@
+django-admin startproject -> inicializa un nuevo proyecto de django
+python manage.py startapp NOMBRE -> crea una nueva aplicacion dentro del proyecto
+python manage.py showmigrations-> muestra todas las migraciones y las que se han efectuado en la bd se colora una X
+
+ python manage.py makemigrations gestion --name creacion_tabla_categorias_platos -> registrar la migracion
+ python manage.py migrate ->migrar a la bd
+ python manage.py sqlmigrate gestion 0001 ->debolver el codigo en sql miagrate
+
